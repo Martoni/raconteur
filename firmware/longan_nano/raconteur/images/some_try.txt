@@ -1,0 +1,500 @@
+  207  make
+  208  ls
+  209  openFPGALoader taptempo.bit
+  210  cd ..
+  211  cd colorlight_vhdl/
+  212  ls
+  213  vim make
+  214  vim Makefile 
+  215  git satus -uno
+  216  git status -uno
+  217  git diff
+  218  vim ../../hdl/verilog/taptempo.v 
+  219  git diff
+  220  git add -p
+  221  git commit -m "Verilog: 50ms debounce"
+  222  git add -u
+  223  git commit -m "vhdl synthesis: remove useless show function, permit VHDL -> Verilog conversion"
+  224  git push
+  225  ls
+  226  yosys -m ghdl
+  227  make
+  228  git status -uno
+  229  git diff
+  230  git status -uno
+  231  git add -u
+  232  git commit -m "vhdl: more modern top declaration"
+  233  git push
+  234  vim ../../hdl/vhdl/pwmgen.vhd 
+  235  cd ..
+  236  cd cocotb/
+  237  cd test_per2bpm/
+  238  SIM=ghdl make
+  239  make clean
+  240  SIM=ghdl make
+  241  git status -uno
+  242  vim Makefile 
+  243  sudo dhclient eth0
+  244  ping 192.168.0.10
+  245  cd myapp/
+  246  ls
+  247  cd GbVga
+  248  ls
+  249  cd chisel/
+  250  sbt "runMain gbvga.GbVgaDriver"
+  251  sbt
+  252  cd ..
+  253  cd cocotb/
+  254  ls
+  255  cd test_memvga/
+  256  ls
+  257  cd ..
+  258  tig
+  259  cd test_memvga/
+  260  ls
+  261  make
+  262  vim vga_image.py 
+  263  ls -lha
+  264  ipython
+  265  cd ..
+  266  git satus -uno
+  267  git status -uno
+  268  git add verilogformal/verilogformal.md 
+  269  git commit -m "adding standard tesbtench"
+  270  git push
+  271  tig
+  272  git status -uno
+  273  git add -u
+  274  git commit -m "working icarus simulation test"
+  275  git push
+  276  cd ..
+  277  git clone ssh://pi@192.168.0.10:/media/pi/PHOTOPARTFS/depotsgit/MaixGo.git
+  278  cd MaixGo/
+  279  git pull
+  280  vim .git/config 
+  281  git pull
+  282  tig
+  283  ls
+  284  vim README.md 
+  285  ls
+  286  ls *.py
+  287  find . -name "*.py"
+  288  find . -name "project.py"
+  289  cd ./bin/MaixPy/projects/hello_world/project.py
+  290  cd ./bin/MaixPy/projects/hello_world/
+  291  python3 project.py --toolchain /opt/kendryte-toolchain/bin --toolchain-prefix riscv64-unknown-elf- config
+  292  ls
+  293  vim project.py 
+  294  git status .
+  295  ls
+  296  cd ..
+  297  ls
+  298  grep -Rn "MIC_ARRAY" *
+  299  ls
+  300  cd hello_world/
+  301  ls
+  302  vim project.py 
+  303  cd ..
+  304  ls
+  305  cd maixpy_k210
+  306  ls
+  307  vim project.py 
+  308  cd ..
+  309  ls
+  310  dmesg
+  311  cd ..
+  312  ls
+  313  cd ..
+  314  ls
+  315  cd thirparty/
+  316  ls
+  317  python sipeedcom.py 
+  318  ls
+  319  mkdir ide
+  320  cp x-special/nautilus-clipboard
+  321  copy
+  322  file:///home/fabien/T%C3%A9l%C3%A9chargements/maixpy-ide-linux-x86_64-0.2.5%20(1).run
+  323  cp /home/fabien/Téléchargements/maixpy-ide-linux-x86_64-0.2.5\ \(1\).run .
+  324  ls
+  325  mv maixpy-ide-linux-x86_64-0.2.5\ \(1\).run maixpy-ide-linux-x86_64-0.2.5.run
+  326  ls
+  327  chmod ugo+x maixpy-ide-linux-x86_64-0.2.5.run 
+  328  ./maixpy-ide-linux-x86_64-0.2.5.run 
+  329  ls
+  330  dmesg
+  331  ls
+  332  cd ide/
+  333  ls
+  334  ./bin/maixpyide.sh
+  335  cd
+  336  vim /tmp/cmpte.py
+  337  dmesg
+  338  exit
+  339  cd ../../
+  340  cd ..
+  341  cd MaixGo/
+  342  ls
+  343  grep -Rn "MIC_ARRAY"
+  344  grep -Rn "MIC_ARRAY" *
+  345  ls
+  346  cd thirparty/
+  347  ls
+  348  vim sipeedcom.py 
+  349  cd ..
+  350  vim bin/MaixPy/projects/maixpy_k210/build/micropython/frozen_mpy.c:81:
+  351  vim bin/MaixPy/projects/maixpy_k210/build/micropython/frozen_mpy.c
+  352  grep -Rn "MIC_ARRAY" *
+  353  vim bin/MaixPy/components/micropython/port/src/Maix/Maix_mic_array.c
+  354  grep -Rn "Microphone Array Arithmetic" *
+  355  vim bin/MaixPy/components/micropython/port/src/Maix/Maix_mic_array.c
+  356  grep -Rn "lib_mic"
+  357  grep -Rn "lib_mic" *
+  358  git status -uno
+  359  exit
+  360  ls -lha
+  361  dmesg
+  362  sudo dmesg -c
+  363  dmegg
+  364  dmesg
+  365  vim /media/fabien/19F5-D3FD/test.txt
+  366  ls
+  367  cd ..
+  368  ls
+  369  cd thirparty/
+  370  ls
+  371  git clone https://github.com/Martoni/Some-Sipeed-MAIX-GO-k210-stuff.git
+  372  cd Some-Sipeed-MAIX-GO-k210-stuff/
+  373  ls
+  374  cd Blynk/
+  375  ls
+  376  make
+  377  cd ..
+  378  ls
+  379  find . -name "Makefile"
+  380  tree
+  381  cd ..
+  382  ls
+  383  cd ide/
+  384  ls
+  385  ./bin/maixpyide.sh 
+  386  git status -uno
+  387  git diff
+  388  git add -u
+  389  tig
+  390  git add -u
+  391  git commit -m "trying record from array"
+  392  git push
+  393  tig
+  394  exit
+  395  ./bin/maixpyide.sh 
+  396  ls
+  397  cd ..
+  398  ls
+  399  vim sipeedcom.py 
+  400  python sipeedcom.py 
+  401  git status -uno
+  402  cd my-stuff/
+  403  ls
+  404  git add helloworld_michp.py 
+  405  ls
+  406  git add -u
+  407  git commit -m "recording test of main mic"
+  408  git push
+  409  ls
+  410  cp hp_mic_array_led.py hp_main_mic_record.py
+  411  git add hp_main_mic_record.py
+  412  git status -uno
+  413  exit
+  414  icarus
+  415  iverilog -h
+  416  cd
+  417  cd myapp/
+  418  git clone https://github.com/Martoni/sipeed-maixduino-test-apps.git
+  419  cd sipeed
+  420  ls
+  421  cd ..
+  422  cd sipeed-maixduino-test-apps/
+  423  ls
+  424  cd platformIO/
+  425  ls
+  426  ls MaixPy/
+  427  mkdir MaixGo
+  428  cd MaixGo/
+  429  ls
+  430  vim mic-array.py
+  431  vimdiff mic-array.py ../MaixPy/mic-array.py 
+  432  git add mic-array.py 
+  433  git commit -m "MaixGo: adapt mic-array.py from MaixPy for MaixGo board"
+  434  git push
+  435  vim mic-array.py 
+  436  cd ../../
+  437  cd ..
+  438  cd MaixGo/
+  439  ls
+  440  cd thirparty/
+  441  ls
+  442  python sipeedcom.py 
+  443  ls
+  444  cd ..
+  445  ls
+  446  cd thirparty/
+  447  ls
+  448  mkdir my-stuff
+  449  cd my-stuff/
+  450  pwd
+  451  git status -uno .
+  452  git status .
+  453  git add hp_mic_array_led.py 
+  454  tig
+  455  git status -uno
+  456  exit
+  457  sudo dhclient eth0
+  458  ping 192.168.0.10
+  459  ping 9.9.9.9
+  460  cd myapp/
+  461  ls
+  462  cd Formal-Verification/
+  463  ls
+  464  git pull 
+  465  tig
+  466  vim README.md 
+  467  cd ..
+  468  ls
+  469  HOMEPI=$(curl http://www.fabienm.eu/raspip/raspip.php?raspip=0 | cut -d" " -f1)
+  470  git clone ssh://pi@raspberrypi.local:/media/pi/PHOTOPARTFS/depotsgit/verilogformal.git
+  471  git clone ssh://pi@$HOMEPI:/media/pi/PHOTOPARTFS/depotsgit/verilogformal.git
+  472  git clone ssh://pi@192.168.0.10:/media/pi/PHOTOPARTFS/depotsgit/verilogformal.git
+  473  cd verilogformal/
+  474  ls
+  475  cat README.md 
+  476  make
+  477  cd formal/
+  478  ls
+  479  vim ../verilogformal/verilogformal.md 
+  480  cd ..
+  481  ls
+  482  cd verilogformal/
+  483  ls
+  484  mkdir images
+  485  cd images/
+  486  ls
+  487  pwd
+  488  ls
+  489  git add testbench.odg 
+  490  cd ..
+  491  vim verilogformal.md 
+  492  cd ..
+  493  ls
+  494  cd --
+  495  cd -
+  496  ls
+  497  cd verilogformal/
+  498  ls
+  499  vim verilogformal.md 
+  500  exit
+  501  git status -uno
+  502  git commit -m "creation du repository"
+  503  git push
+  504  ls
+  505  tree
+  506  git status -uno
+  507  git add raconteur
+  508  git diff
+  509  git status -uno
+  510  git commit -m "firmware: minimal pio project for longannano"
+  511  git push
+  512  git status -uno
+  513  tig
+  514  tree
+  515  cd sr
+  516  cd src
+  517  ls
+  518  cd raconteur/
+  519  cd src/
+  520  ls
+  521  cp /home/fabien/Documents/PlatformIO/Projects/200217-185148-longan-nano-blink/src/*.c .
+  522  ls
+  523  cd ..
+  524  ls
+  525  cd include/
+  526  ls
+  527  git status .
+  528  cp /home/fabien/Documents/PlatformIO/Projects/200217-185148-longan-nano-blink/include/systick.h .
+  529  git status -uno
+  530  git add ../platformio.ini
+  531  ls
+  532  git add systick.h 
+  533  cd ..
+  534  cd src/
+  535  ls
+  536  git add *.c
+  537  git status -uno
+  538  git commit -m "firmware: adding blink minimal with dfu loading"
+  539  git push
+  540  apt-file search libhidapi-hidraw.so.*
+  541  apt-file search libhidapi-hidraw.so
+  542  sudo apt install libhidapi-dev
+  543  pwd
+  544  cd ..
+  545  cd lib/
+  546  ls
+  547  cd fatfs/
+  548  ls
+  549  cd ..
+  550  tree
+  551  git add fatfs/
+  552  gti status -uno
+  553  git status -uno
+  554  git diff
+  555  cd ..
+  556  ls
+  557  cd include/
+  558  ls
+  559  cp /home/fabien/tmp/Longan-RISC-V-examples/08-SD-card/lib/pjt/include/gd32v_pjt_include.h .
+  560  ls
+  561  cd ..
+  562  cd lib/
+  563  ls
+  564  mkdir systick
+  565  cd systick/
+  566  mkdir include
+  567  mkdir src
+  568  mv ../../include/systick.h include/
+  569  mv ../../src/systick.c src/
+  570  cd ..
+  571  ls
+  572  find . -name "gd32v_pjt_include.h"
+  573  tree pjt/
+  574  ls
+  575  tree
+  576  find . -name "gd32v_pjt_include.h"
+  577  git status -uno
+  578  git status .
+  579  git add lcd/
+  580  git add pjt/
+  581  git add systick/
+  582  git status -uno
+  583  git add ../src/main.c
+  584  git del ../include/systick.h
+  585  git rm ../include/systick.h
+  586  git rm ../src/systick.c
+  587  git status -uno
+  588  git commit -m "firmware: adding lib for lcd and fatfs"
+  589  git status -uno
+  590  git push
+  591  ls
+  592  cd ..
+  593  ls
+  594  cd lib/$
+  595  ls
+  596  cd lib/
+  597  ls
+  598  ls -lha
+  599  tree
+  600  cd pjt/
+  601  mkdir src
+  602  ls
+  603  cd src
+  604  vim gd32v_pjt_include.c
+  605  vim gd32v_pjt_include.c 
+  606  dmesg
+  607  sudo dmesg -c
+  608  dmesg
+  609  clear
+  610  sudo gparted
+  611  vim /media/fabien/19F5-D3FD/put_in_tf_card/01.txt
+  612  vim /media/fabien/19F5-D3FD/put_in_tf_card/Poueeeeeeet.txt
+  613  git status -uno
+  614  git diff
+  615  git status -uno
+  616  git add -u
+  617  git commit -m "print number from sd card on lcd test"
+  618  git psuh
+  619  git push
+  620  ls
+  621  cd ..
+  622  git status -uno
+  623  ls
+  624  cd ..
+  625  ls
+  626  cd pwd
+  627  pwd
+  628  ls
+  629  cd ..
+  630  ls
+  631  cp -R /home/fabien/tmp/Longan-RISC-V-examples/08-SD-card/put_in_tf_card/ .
+  632  git add put_in_tf_card/
+  633  ls
+  634  cd put_in_tf_card/
+  635  ls
+  636  convert -interlace plane -depth 8 -size 20x30+4 rgb:01.bin 01.png
+  637  ls
+  638  convert -interlace plane -depth 8 -size 20x30+4 rgb:01.bin 0.png
+  639  convert -interlace plane -depth 8 -size 20x30+4 rgb:0.bin 0.png
+  640  ls
+  641  convert -depth 8 -size 20x30+4 rgb:0.bin 0.png
+  642  ls
+  643  rm 0.png 
+  644  convert -depth 8 -size 20x30+4 rgb:0.bin 0.png
+  645  ls
+  646  convert -interlace plane -depth 8 -size 20x30 rgb:0.bin 0.png
+  647  identify -list interlace
+  648  convert -interlace PNG -depth 8 -size 20x30 rgb:0.bin 0.png
+  649  convert -interlace line -depth 8 -size 20x30 rgb:0.bin 0.png
+  650  convert -interlace None -depth 8 -size 20x30 rgb:0.bin 0.png
+  651  rm 0.png 
+  652  convert -interlace None -depth 8 -size 20x30 rgb:0.bin 0.png
+  653  ls
+  654  convert -interlace Plane -depth 8 -size 20x30 rgb:0.bin 0.png
+  655  convert -interlace Plane -depth 16 -size 20x30 rgb:0.bin 0.png
+  656  convert -interlace Plane -depth 16 -size 20x30+4 rgb:0.bin 0.png
+  657  rm 0.png 
+  658  convert -depth 16 -size 20x30+4 rgb:0.bin 0.png
+  659  ls
+  660  convert -interlace Line -depth 16 -size 20x30+4 rgb:0.bin 0.png
+  661  convert -interlace Line -depth 16 -size 30x20+4 rgb:0.bin 0.png
+  662  convert -interlace Plane -depth 16 -size 30x20+4 rgb:0.bin 0.png
+  663  git status -uno
+  664  git commit -m "adding default images from example"
+  665  git push
+  666  apt-cache search ufraw
+  667  sudo apt install gimp-ufraw
+  668  sudo apt install ufraw
+  669  ufraw
+  670  dmesg
+  671  cd ..
+  672  ls
+  673  cd images/
+  674  ls
+  675  git add *
+  676  git status -uno
+  677  git add ../src/main.c
+  678  git commit -m "print pomme d'api pomme"
+  679  git push
+  680  ls
+  681  pwd
+  682  convert -h
+  683  ls
+  684  ls -lha
+  685  ls -la
+  686  convert dapi_102x71.png -define bmp:subtype=RGB565 out.bmp
+  687  ls -la
+  688  convert dapi_102x71.png -define bmp:subtype=RGB565 --alpha=off out.bmp
+  689  convert dapi_102x71.png -define bmp:subtype=RGB565 -alpha=off out.bmp
+  690  convert dapi_102x71.png -alpha off -define bmp:subtype=RGB565 out.bmp
+  691  ls -la
+  692  vim out.bmp 
+  693  ls -la
+  694  rm out.bmp 
+  695  convert dapi_102x71.png -alpha off -define bmp:subtype=RGB565 out.bmp
+  696  ls -la
+  697  sudo apt install hexedit
+  698  hexedit out.bmp 
+  699  sudo apt install okteta
+  700  ls
+  701  convert dapi_102x71.png +flip -strip -define bmp:subtype=RGB565 out2.bmp
+  702  ls -la
+  703  convert dapi_102x71.png -alpha off +flip -strip -define bmp:subtype=RGB565 out2.bmp
+  704  ls -la
+  705  history | tail
+  706  history > some_try.txt
